@@ -90,7 +90,7 @@
         }
       }
     },
-    "/v1/participation/channels": {
+    "/participation/v1/channels": {
       "get": {
         "tags": [
           "channels"
@@ -129,7 +129,7 @@
         "parameters": [
           {
             "type": "string",
-            "name": "configBlock",
+            "name": "config-block",
             "in": "formData",
             "required": true
           }
@@ -166,7 +166,7 @@
         }
       }
     },
-    "/v1/participation/channels/{channelID}": {
+    "/participation/v1/channels/{channelID}": {
       "get": {
         "tags": [
           "channels"
